@@ -24,3 +24,6 @@ jobs:
       run: msbuild Veri.Framework.sln /p:Configuration=Release
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.2.1
+      with:
+        name: published_webapp
+        path: bin\Release\Publish
