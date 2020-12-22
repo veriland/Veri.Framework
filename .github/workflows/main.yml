@@ -34,12 +34,12 @@ jobs:
       run: nuget restore $env:Solution_Name
 
     # Restore solution
-    - name: Build and Publish Web App
+    - name: Restore Solution
       run: msbuild $env:Solution_Name /t:Restore /p:Configuration=Release
 
     # Build and publish app
     - name: Build and Publish Web App
-      run: msbuild $env:Solution_Name /p:Configuration=Release /p:PublishProfile=FolderProfile
+      run: msbuild $env:Solution_Name /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=FolderProfile
 
     # Build and publish app
     - name: Upload a Build Artifact
