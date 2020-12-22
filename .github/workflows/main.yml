@@ -39,11 +39,11 @@ jobs:
 
     # Build and publish app
     - name: Build and Publish Web App
-      run: msbuild $env:Solution_Name /p:Configuration=Release
+      run: msbuild $env:Solution_Name /p:Configuration=Release /p:PublishProfile=FolderProfile
 
     # Build and publish app
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.2.1
       with:
         name: published_application
-        path: bin\Release\netstandard2.1
+        path: publish
