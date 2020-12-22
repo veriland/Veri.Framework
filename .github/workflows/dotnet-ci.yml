@@ -19,8 +19,8 @@ jobs:
     - name: Setup NuGet.exe for use with actions
       uses: NuGet/setup-nuget@v1.0.5
     - name: Restore NuGet Packages
-      run: nuget restore *.sln
+      run: nuget restore Veri.Framework.sln
     - name: Build and Publish Web App
-      run: msbuild *.sln /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=FolderProfile
+      run: msbuild Veri.Framework.sln /p:Configuration=Release
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.2.1
