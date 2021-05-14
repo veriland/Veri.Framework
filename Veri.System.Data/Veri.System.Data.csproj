@@ -3,17 +3,19 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Configurations>Debug;Release;x64</Configurations>
+    <EnableNETAnalyzers>false</EnableNETAnalyzers>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.2</Version>
-    <AssemblyVersion>1.0.2.0</AssemblyVersion>
-    <Authors>Eralp Erakalin</Authors>
-    <Company>Veriland Consulting Ltd.</Company>
-    <Description>Cache Context for Redis</Description>
-    <Copyright>Veriland Consulting Ltd.</Copyright>
-    <PackageIcon>icon.png</PackageIcon>
-    <RepositoryUrl>https://github.com/veriland/Veri.Framework</RepositoryUrl>
-    <RepositoryType>GitHub</RepositoryType>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/veriland/Veri.Framework.git</RepositoryUrl>
+    <RepositoryType>Public</RepositoryType>
+    <Authors>Veriland Consulting Ltd.</Authors>
+    <Product>Veriland Redis Data</Product>
+    <Copyright>All rights reserved ©2019-2020, Veriland Consulting Limited</Copyright>
     <PackageProjectUrl>https://github.com/veriland/Veri.Framework</PackageProjectUrl>
+    <Version>1.0.1</Version>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <PackageIcon>icon.png</PackageIcon>
+    <Description>Redis data manager for veriland framework</Description>
   </PropertyGroup>
 
   <ItemGroup>
