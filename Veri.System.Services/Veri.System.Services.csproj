@@ -1,8 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Configurations>Debug;Release;x64</Configurations>
+    <SignAssembly>false</SignAssembly>
+    <Version>1.0.1</Version>
+    <Copyright>Veriland Consulting Ltd.</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Description>Common services used for Dependecy Injection</Description>
+    <Product />
+    <Company>Veriland Consulting Ltd.</Company>
+    <Authors>Eralp Erakalin</Authors>
   </PropertyGroup>
 
   <ItemGroup>
