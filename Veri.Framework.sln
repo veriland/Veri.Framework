@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veri.System.Xrm.Sdk", "Veri
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{387C81F9-8082-41B1-96E3-3D7B6E5B4331}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\OneDrive - Veriland Consulting Ltd\Desktop\icon.png = ..\..\..\OneDrive - Veriland Consulting Ltd\Desktop\icon.png
+		icon.png = icon.png
 	EndProjectSection
 EndProject
 Global
