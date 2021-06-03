@@ -19,7 +19,7 @@ namespace Veri.System.Data
         {
             Licensing.RegisterLicense(license);
             pool = new RedisManagerPool(
-                cacheUri, 
+                cacheUri,
                 new RedisPoolConfig
                 {
                     MaxPoolSize = maxPoolSize
@@ -125,7 +125,7 @@ namespace Veri.System.Data
         {
             if (ttl != -1)
             {
-                foreach(var entity in entities)
+                foreach (var entity in entities)
                 {
                     Store(entity, ttl);
                 }
@@ -184,7 +184,7 @@ namespace Veri.System.Data
             }
         }
 
-        public void DeleteRelatedEntity<T,TChild>(object parentId, object childToBeDeletedId) 
+        public void DeleteRelatedEntity<T, TChild>(object parentId, object childToBeDeletedId)
             where T : IBaseTable
             where TChild : IBaseTable
         {

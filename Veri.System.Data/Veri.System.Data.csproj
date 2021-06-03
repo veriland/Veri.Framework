@@ -12,7 +12,7 @@
     <Product>Veriland Redis Data</Product>
     <Copyright>All rights reserved ©2019-2020, Veriland Consulting Limited</Copyright>
     <PackageProjectUrl>https://github.com/veriland/Veri.Framework</PackageProjectUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.3</Version>
     <NeutralLanguage>en-GB</NeutralLanguage>
     <PackageIcon>icon.png</PackageIcon>
     <Description>Redis data manager for veriland framework</Description>
